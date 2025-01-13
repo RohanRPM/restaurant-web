@@ -1,5 +1,5 @@
 import React from 'react';
-import './PopularDishes.css';
+import '../assets/styles/PopularDishes.css';
 
 const PopularDishes = () => {
   const dishes = ['Dish 1', 'Dish 2', 'Dish 3', 'Dish 4'];

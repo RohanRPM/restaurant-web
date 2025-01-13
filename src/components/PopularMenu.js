@@ -1,5 +1,5 @@
 import React from 'react';
-import './PopularMenu.css';
+import '../assets/styles/PopularMenu.css';
 
 const PopularMenu = () => {
   const menuItems = [

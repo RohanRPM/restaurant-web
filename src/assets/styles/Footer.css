@@ -1,0 +1,52 @@
+.footer {
+    background-image: url('../images/footer.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-item {
+    max-width: 250px;
+    margin: 15px;
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .message-icon::before {
+    content: "💬"; /* Replace with your preferred icon font or image */
+  }
+  
+  .phone-icon::before {
+    content: "📞";
+  }
+  
+  .email-icon::before {
+    content: "✉️";
+  }
+  
+  .location-icon::before {
+    content: "📍";
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
